@@ -1,7 +1,8 @@
-import { config } from "@tamagui/config/v3";
+import { defaultConfig } from "@tamagui/config/v5";
+import { animations } from "@tamagui/config/v5-css";
 import { createTamagui } from "tamagui";
 
-const tamagui = createTamagui(config);
+const tamagui = createTamagui({ ...defaultConfig, animations, settings: { ...defaultConfig.settings, addThemeClassName: undefined } });
 
 export default tamagui;
 
