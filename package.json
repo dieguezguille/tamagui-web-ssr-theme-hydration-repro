@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~55.0.12",
-    "@tamagui/config": "2.7.7",
+    "@tamagui/config": "1.144.4",
     "expo": "~55.0.31",
     "expo-constants": "~55.0.17",
     "expo-linking": "~55.0.17",
@@ -20,7 +20,7 @@
     "react-native-safe-area-context": "~5.6.2",
     "react-native-screens": "~4.23.0",
     "react-native-web": "^0.21.3",
-    "tamagui": "2.7.7"
+    "tamagui": "1.144.4"
   },
   "devDependencies": {
     "@types/react": "~19.2.18",
