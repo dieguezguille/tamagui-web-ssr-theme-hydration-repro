@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "tamagui-web-ssr-theme-hydration-repro",
+    "slug": "tamagui-web-ssr-theme-hydration-repro",
+    "scheme": "repro",
+    "userInterfaceStyle": "automatic",
+    "web": { "output": "static", "bundler": "metro" },
+    "plugins": ["expo-router"]
+  }
+}

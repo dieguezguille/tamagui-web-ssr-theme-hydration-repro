@@ -1,0 +1,29 @@
+{
+  "name": "tamagui-web-ssr-theme-hydration-repro",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "export": "TAMAGUI_DISABLE_SLIDER_INTERVAL=1 expo export --platform web",
+    "serve": "expo serve --port 4319",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~55.0.12",
+    "@tamagui/config": "2.7.7",
+    "expo": "~55.0.31",
+    "expo-constants": "~55.0.17",
+    "expo-linking": "~55.0.17",
+    "expo-router": "~55.0.18",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "react-native": "0.83.10",
+    "react-native-safe-area-context": "~5.6.2",
+    "react-native-screens": "~4.23.0",
+    "react-native-web": "^0.21.3",
+    "tamagui": "2.7.7"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.18",
+    "typescript": "~5.9.3"
+  }
+}
